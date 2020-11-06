@@ -8,11 +8,11 @@ function getPath ($el){
 function check($el , $defaultEl )
 {
     if ($el){
-        echo "$el" . "<br>";
+        
         return $el;
     }
     else if ($defaultEl) {
-      echo "$defaultEl" . "<br>";
+      
       return $defaultEl;
     }
     else {
